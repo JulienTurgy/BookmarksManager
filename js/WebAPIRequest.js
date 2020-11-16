@@ -2,10 +2,9 @@
     Méthodes d'accès aux services Web API_Server/bookmarks
  */
 
-const apiBaseURL= "http://localhost:5000/api/";
-const apiAccountURL = "http://localhost:5000/accounts";
-const tokenURL = "http://localhost:5000/token";
-//const apiBaseURL= "https://blushing-imaginary-streetcar.glitch.me/api/bookmarks";
+const apiBaseURL= "https://turquoise-diamond-pigment.glitch.me/api/";
+const apiAccountURL= "https://turquoise-diamond-pigment.glitch.me/accounts";
+const tokenURL= "https://turquoise-diamond-pigment.glitch.me/token";
 
 function getBearerToken(){
     return sessionStorage.getItem("token");
