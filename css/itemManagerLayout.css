@@ -1,0 +1,109 @@
+/*
+    auteur: Nicolas Chourot
+ */
+body {
+    background-color: white;
+}
+button {
+    padding: 2px 3px;
+    font-size: small;
+    color: blue;
+}
+.ellipsis {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    vertical-align: middle;
+    display: table-cell;
+}
+.header-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.header-items-container div {
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 7px;;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(60, 122, 255);
+    color: white;
+}
+.form-item-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.form-item-container div {
+    text-align: left;
+    padding: 5px;
+    background-color: lightgray;
+}
+.item-list-scroll-containter {
+    height: 760px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:white;
+}
+.item-list-container div {
+    text-align: left;
+    padding: 5px;
+}
+.oddRow {
+    background-color: white;
+}
+.evenRow {
+    background-color: lightcyan;
+}
+
+.waiting {
+    font-size: 14px;
+    font-weight: bold;
+    color:green;
+}
+.httpError {
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+}
+.form-container {
+    overflow-y: hidden;
+}
+
+.array-container {
+    border:1px solid black;
+}
+.cell {
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.sortcmd {cursor: n-resize;}
+.sortcmd:hover{
+    background-color:rgb(92, 143, 255);
+}
+.sortcmd::selection {
+    color:none;
+    background: none;
+}
+.selectedRow {
+    background-color: darkturquoise;
+}
+.favicon {
+    text-align:center;
+    background-image: url(favicon.ico); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+    float: left;
+}
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}

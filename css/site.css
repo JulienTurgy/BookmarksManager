@@ -1,0 +1,18 @@
+input{
+    margin-top:16px;
+}
+
+button{
+    width:32px;
+    margin-top:16px;
+}
+
+div.username{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btnJq{
+    white-space: normal;
+    width: 30%;
+}
